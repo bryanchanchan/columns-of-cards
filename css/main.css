@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  font-family: Open Sans, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: ;
+}
+
+div {
+  float: left;
+  display: inline-block;
+  width: 25%;
+  border-left: 1px solid #333;
+  height: 400px;
+}
+
+img {
+  width: 100px;
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-left: 1em;
+  padding: .65rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.one {
+  background-color: #e2e2e2;
+}
+
+.two {
+  background-color: #ccc;
+}
+
+.three {
+  background-color: #aaa;
+}
+
+.four {
+  background-color: #999;
+  border-right: 1px solid #333;
+}
